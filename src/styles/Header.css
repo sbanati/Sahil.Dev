@@ -1,5 +1,5 @@
   
-  header {
+  /* header {
     position: sticky;
     background-color: var(--whiteground-color);
     color: var(--black-font);
@@ -11,14 +11,14 @@
     z-index: 2;
     top: 0;
     
-  }
+  } */
   
   /* When you mouse over my name on top left (the header 1) it shows a 
   cursor instead of I. This just feels a bit cleaner  */
   
-  header  {
+  /* header  {
     cursor: pointer;
   }
-   
+    */
 
  

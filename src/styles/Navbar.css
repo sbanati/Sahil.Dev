@@ -1,22 +1,22 @@
 /* Structural styles */
-.Navbar {
+/* .Navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
-  .Navbar ul {
+   */
+  /* .Navbar ul {
     display: flex;
     list-style-type: none;
-  }
+  } */
   
-  .Navbar li {
-    /* display: inline-block; */
+  /* .Navbar li {
+    
     margin-right: 20px;
   }
-  
+   */
   /* Presentational styles */
-  .Navbar a {
+  /* .Navbar a {
     color: #2d2e32;
     text-decoration: none;
     margin-left: 2rem;
@@ -25,10 +25,8 @@
     width: 100%;
     font-weight: 600;
     transition: color 0.3s ease;
-  }
+  } */
   
   /* Style applied to mouse over event */
-    nav a:hover {
-      color:var(--head-blue)
-    }
+    /*  */
     
