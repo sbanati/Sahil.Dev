@@ -16,13 +16,10 @@ function Navbar() {
   return (
     <nav className="relative w-1/3">
       {/* Hamburger menu icon will render if menu is closed, otherwise render X */}
-      <div className="lg:hidden">
-        {menuOpen ? (
-          <X className="" onClick={toggleMenu} />
-        ) : (
-          <Menu className="" onClick={toggleMenu} />
-        )}
-      </div>
+        <div className="fixed top-0 right-0 mt-2 mr-2 z-10">
+            <X className={`${menuOpen ? "" : "hidden"} lg:hidden`} onClick={toggleMenu} />
+            <Menu className={`${menuOpen ? "hidden" : ""} lg:hidden`} onClick={toggleMenu} />
+        </div>
 
       {/* Nav links for desktop screens */}
       <ul className="hidden lg:flex list-none justify-between">
@@ -44,7 +41,8 @@ function Navbar() {
       </ul>
 
       {/* Nav links for mobile screens */}
-      <ul className={menuOpen ? "lg:hidden list-none absolute top-full left-0 w-full bg-white" : "hidden"}>
+      <div className={menuOpen ? "fixed top-0 left-0 w-full h-full bg-white transition-all duration-300 ease-in-out transform translate-x-0" : "fixed top-0 left-0 w-64 h-full bg-white transition-all duration-300 ease-in-out transform -translate-x-full"}>
+      <ul className="list-none flex flex-col items-center justify-center space-y-10 pt-20">
         <li className="nav-item pt-4 pb-0.5">
           <Link to="/" className={currentPage === "/" ? "nav-link active" : "nav-link"}>Home</Link>
         </li>
@@ -61,6 +59,7 @@ function Navbar() {
           <Link to="/Resume" className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}>Resume</Link>
         </li>
       </ul>
+      </div>
     </nav>
   );
 }
