@@ -1,0 +1,34 @@
+/* Structural styles */
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Navbar ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .Navbar li {
+    /* display: inline-block; */
+    margin-right: 20px;
+  }
+  
+  /* Presentational styles */
+  .Navbar a {
+    color: #2d2e32;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1.7rem;  
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  /* Style applied to mouse over event */
+    nav a:hover {
+      color:var(--head-blue)
+    }
+    

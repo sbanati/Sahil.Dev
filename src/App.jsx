@@ -1,9 +1,20 @@
+// Bringing in the required import from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
+// import Footer from './components/Footer';
 import './App.css';
 
-const App = () => {
+function App() {
+  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
-    <div>App</div>
-  )
+    <>
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      {/* <Footer /> */}
+    </>
+  );
 }
 
 export default App
