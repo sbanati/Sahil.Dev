@@ -1,2 +1,52 @@
 
 
+
+/* .hero-section {
+    background-size: cover;
+    background-color:var(--background-color);
+    padding: 20rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    text-align: left; 
+  } */
+
+
+  /* .hero-text {
+  
+    text-align: left; 
+    max-width: 50rem;
+  } */
+
+  /* staw hat luffy goat img for hero section. Roudned into a circle and size reduced */
+
+  /* .hero-section img {
+    max-width: 50%;
+    height: 35rem;
+    border-radius: 50%; 
+    margin-bottom: 3rem;
+    width: 35rem;
+    position: relative;
+    
+  } */
+
+   /* Styles applied to the h2 heading in the hero section */
+   /* .hero-section h2 {
+    font-size: 5.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color:var(--black-font);
+    line-height: 1.2;
+    margin-right: 6rem;
+  
+   */
+  
+  /* Styles applied to the <p> text in the hero section */
+  /* .hero-section p {
+    font-size: 1.8rem;
+    color:var(--text-color);
+    font-weight: 500;
+    line-height: 1.6;
+  } */
+

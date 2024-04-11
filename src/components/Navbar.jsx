@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="relative w-1/3">
+    <nav className="relative w-1/3 bg-white">
       {/* Hamburger menu icon will render if menu is closed, otherwise render X */}
         <div className="fixed top-0 right-0 mt-2 mr-2 z-10">
             <X className={`${menuOpen ? "" : "hidden"} lg:hidden`} onClick={toggleMenu} />
