@@ -44,19 +44,19 @@ function Navbar() {
       <div className={menuOpen ? "fixed top-0 left-0 w-full h-full bg-white transition-all duration-300 ease-in-out transform translate-x-0" : "fixed top-0 left-0 w-64 h-full bg-white transition-all duration-300 ease-in-out transform -translate-x-full"}>
       <ul className="list-none flex flex-col items-center justify-center space-y-10 pt-20">
         <li className="nav-item pt-4 pb-0.5">
-          <Link to="/" className={currentPage === "/" ? "nav-link active" : "nav-link"}>Home</Link>
+          <Link to="/" className={currentPage === "/" ? "nav-link active  text-red-500 hover:text-blue-500" : "nav-link hover:text-blue-500"}>Home</Link>
         </li>
         <li className="nav-item">
-          <Link to="/About" className={currentPage === "/About" ? "nav-link active" : "nav-link"}>About</Link>
+          <Link to="/About" className={currentPage === "/About" ? "nav-link active  text-red-500 hover:text-blue-500" : "nav-link hover:text-blue-500"}>About</Link>
         </li>
         <li className="nav-item">
-          <Link to="/Projects" className={currentPage === "/Projects" ? "nav-link active" : "nav-link"}>Projects</Link>
+          <Link to="/Projects" className={currentPage === "/Projects" ? "nav-link active text-red-500 hover:text-blue-500" : "nav-link hover:text-blue-500"}>Projects</Link>
         </li>
         <li className="nav-item">
-          <Link to="/Contact" className={currentPage === "/Contact" ? "nav-link active" : "nav-link"}>Contact</Link>
+          <Link to="/Contact" className={currentPage === "/Contact" ? "nav-link active text-red-500 hover:text-blue-500" : "nav-link hover:text-blue-500"}>Contact</Link>
         </li>
         <li className="nav-item">
-          <Link to="/Resume" className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}>Resume</Link>
+          <Link to="/Resume" className={currentPage === "/Resume" ? "nav-link active text-red-500 hover:text-blue-500" : "nav-link hover:text-blue-500"}>Resume</Link>
         </li>
       </ul>
       </div>
