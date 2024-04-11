@@ -53,3 +53,80 @@
 
 
   
+
+  
+  /* .about_section {
+    background-size: cover;
+    background-color:var(--whiteground-color);
+    padding: 20rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    text-align: left; /* Align text to the left */
+  
+   
+  
+  /*Style applied to where the about content will begin, positioning the box etc  */
+  /* .about-content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+  } */
+  
+  /* Style applied to the about sections h3 header being the ABOUT title. The color/font/and text styling  */
+  /* .about_section h3 {
+    color:var(--head-blue);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  } */
+  
+  /* Style applied to the about section h4 header being the about 1 liner */
+  /* .about_section h4 {
+    color:var(--black-font);
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+  } */
+  /* Style/Formatting for the about card , where the about content will be enclosed in  */
+  /* .about-card {
+    display:flex;
+    border: 1px solid var(--whiteground-color);
+    border-radius: 8px;
+    height: auto;
+    margin: 0 auto;
+    max-width: 1000px;  
+  } */
+  
+  /* Formatting for the about-img container */
+  /* .about-img {
+    flex: 1;
+    height: auto;
+  } */
+  /* Style applied to the actual about image */
+  /* .about-img img {
+    width:100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; 
+  }
+   */
+  /* Formatting for the about-text container */
+/*   
+  .about-text {
+    flex: 1;
+    padding: 20px
+  } */
+  
+  /* Style for the <p> text in the about section  */
+  
+  /* .about-text p {
+    color: var(--about-text);
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.5;
+  } */
+  
