@@ -2,7 +2,7 @@ import screenshot2 from '../assets/screenshot2.png';
 
 const About = () => {
   return (
-    <section id="about" className="bg-neutral-200 py-20 pb-0 min-h-screen">
+    <section id="about" className="bg-neutral-100 py-20 pb-0 min-h-screen">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
         {/* Image */}
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">

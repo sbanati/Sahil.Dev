@@ -8,7 +8,7 @@ const Resume = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen mt-[-80px] bg-neutral-200">
+    <div className="flex flex-col items-center justify-center min-h-screen mt-[-80px] bg-neutral-100">
       <div className="align-left">
         <h1 className="text-xl text-blue-600">Front-End Proficiency</h1>
         <ul className="list-disc list-inside">

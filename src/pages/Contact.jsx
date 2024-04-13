@@ -38,7 +38,7 @@ const ContactForm = () => {
   });
 
   return (
-    <div className="bg-neutral-200 py-20 h-screen">
+    <div className="bg-neutral-100 py-20 h-screen">
       <div className="flex justify-center h-full">
         <form onSubmit={formik.handleSubmit} className="max-w-sm mt-10">
           <div className="mb-4">
