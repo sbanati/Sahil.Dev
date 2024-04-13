@@ -4,6 +4,7 @@ import RecipeBlog from "../assets/RecipeBlog.png"
 import WeatherApp from "../assets/WeatherApp.png"
 import SocialNetwork from "../assets/SocialNetwork.png"
 import ECommerce from "../assets/ECommerce.png"
+import EmployeeTracker from "../assets/EmployeeTracker.png"
 
 
 const Portfolio = () => {
@@ -44,18 +45,18 @@ const Portfolio = () => {
     {
       title: 'E-Commerce API',
       imageUrl: ECommerce,
-      description: 'Developed an api for a social network application,where users can share posts, react to friends posts and create a friends list.',
+      description: 'Developed an E-Commerce backend application configured with a working Express.js API which uses Sequelize to interact with a MySQL database.',
       githubUrl: 'https://github.com/sbanati/e-commerce-backend',
       deployedUrl: 'https://www.youtube.com/watch?v=3Qst3kEQlFs&ab_channel=jsmbanati',
       techStackUrl: 'https://skillicons.dev/icons?i=nodejs,express,mysql,npm&theme=light',
     },
     {
-      title: 'Project 2',
-      imageUrl: '',
-      description: 'Description of Project 2',
-      githubUrl: 'https://github.com/yourusername/project2',
-      deployedUrl: 'https://deployment-url.com/project2',
-      techStackUrl: '',
+      title: 'EmployeeTracker',
+      imageUrl: EmployeeTracker,
+      description:'Developed a command-line interface(CLI) application, leveraging Node.js, Inquirer.js, and MySQL2, to facilitate dynamic CRUD operations on an SQL Human Resources employee database tracker.',
+      githubUrl: 'https://github.com/sbanati/TeamFlow',
+      deployedUrl: 'https://www.youtube.com/watch?v=Ft5N33LkwrQ&ab_channel=jsmbanati',
+      techStackUrl: 'https://skillicons.dev/icons?i=nodejs,mysql,npm&theme=light',
     },
    
     
