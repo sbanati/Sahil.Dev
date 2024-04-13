@@ -32,7 +32,7 @@ const Resume = () => {
       </div>
 
       <button 
-        className="bg-red-600 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4 mr-8"
+        className="bg-red-800 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4 mr-8 "
         onClick={handleDownload}
       >
         Download Resume

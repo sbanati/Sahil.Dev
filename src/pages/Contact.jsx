@@ -17,7 +17,7 @@ const validate = values => {
 
   if (!values.message) {
     errors.message = 'Required';
-  } else if (values.message.length > 20) {
+  } else if (values.message.length > 500) {
     errors.message = 'Must be 20 characters or less';
   }
 
@@ -86,7 +86,7 @@ const ContactForm = () => {
               <div className="text-red-500 text-sm">{formik.errors.message}</div>
             ) : null}
           </div>
-          <button type="submit" className="px-4 py-2 bg-blue-500 text-white rounded-md shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+          <button type="submit" className="px-4 py-2 bg-blue-500 text-white rounded-md shadow-sm hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-2xl">
             Submit
           </button>
         </form>

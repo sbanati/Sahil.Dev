@@ -2,6 +2,8 @@ import ProjectCard from "../components/ProjectCard";
 import Jate from "../assets/Jate.png"
 import RecipeBlog from "../assets/RecipeBlog.png"
 import WeatherApp from "../assets/WeatherApp.png"
+import SocialNetwork from "../assets/SocialNetwork.png"
+import ECommerce from "../assets/ECommerce.png"
 
 
 const Portfolio = () => {
@@ -32,20 +34,20 @@ const Portfolio = () => {
       techStackUrl: 'https://skillicons.dev/icons?i=js,html,css&theme=light',
     },
     {
-      title: 'Project 2',
-      imageUrl: '',
-      description: 'Description of Project 2',
-      githubUrl: 'https://github.com/yourusername/project2',
-      deployedUrl: 'https://deployment-url.com/project2',
-      techStackUrl: '',
+      title: 'Social NetworK API',
+      imageUrl: SocialNetwork,
+      description: 'Developed an api for a social network application,where users can share posts, react to friends posts and create a friends list.',
+      githubUrl: 'https://github.com/sbanati/amazing-lemon',
+      deployedUrl: 'https://www.youtube.com/watch?v=5NpbM1jlwgI&ab_channel=jsmbanati',
+      techStackUrl: 'https://skillicons.dev/icons?i=nodejs,express,mongodb,npm&theme=light',
     },
     {
-      title: 'Project 2',
-      imageUrl: '',
-      description: 'Description of Project 2',
-      githubUrl: 'https://github.com/yourusername/project2',
-      deployedUrl: 'https://deployment-url.com/project2',
-      techStackUrl: '',
+      title: 'E-Commerce API',
+      imageUrl: ECommerce,
+      description: 'Developed an api for a social network application,where users can share posts, react to friends posts and create a friends list.',
+      githubUrl: 'https://github.com/sbanati/e-commerce-backend',
+      deployedUrl: 'https://www.youtube.com/watch?v=3Qst3kEQlFs&ab_channel=jsmbanati',
+      techStackUrl: 'https://skillicons.dev/icons?i=nodejs,express,mysql,npm&theme=light',
     },
     {
       title: 'Project 2',

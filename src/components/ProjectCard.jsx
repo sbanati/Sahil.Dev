@@ -13,18 +13,18 @@ const Card = ({ title, description, imageUrl, githubUrl, deployedUrl, techStackU
         </div>
         <p className="text-black mb-4 mt-4 text-center">{description}</p> {/* Center the description */}
         <div className="flex justify-center mb-4"> {/* Center the icons */}
-          <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 mr-4">
-            <Github size={24} />
+          <a href={githubUrl} alt='github icon' target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 mr-4">
+            <Github size={24} title= 'Clickable Github icon'/>
           </a>
-          <a href={deployedUrl} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
-            <Share size={24} />
+          <a href={deployedUrl} alt ='View deployed project' target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+            <Share size={24} title= 'Clickable Live icon'/>
           </a>
         </div>
         {/* Add tech stack image with margin to move it down */}
-        <img src={techStackUrl} alt="Tech Stack" className="w-34 h-auto mx-auto mb-2 mt-10"  /> {/* Use a smaller width for the tech stack image */}
+        <img src={techStackUrl} alt="Tech Stack" className=" w-34 h-auto mx-auto mb-2 mt-10 z-10"  /> 
       </div>
-      <div className="w-72 h-auto ml-8 rounded-lg flex items-center justify-center"> {/* Adjusted width of the image */}
-        <img src={imageUrl} alt={title} className="w-full h-full rounded-lg" /> {/* Adjusted height of the image */}
+      <div className="w-72 h-auto ml-8 rounded-lg flex items-center justify-center"> 
+        <img src={imageUrl} alt={title} className="w-full h-full rounded-lg" /> 
       </div>
     </div>
   );
@@ -36,8 +36,8 @@ Card.propTypes = {
   imageUrl: PropTypes.string.isRequired,
   githubUrl: PropTypes.string.isRequired,
   deployedUrl: PropTypes.string.isRequired,
-  techStackUrl: PropTypes.string.isRequired, // URL for tech stack image
-  index: PropTypes.number.isRequired, // Added prop for index of the card
+  techStackUrl: PropTypes.string.isRequired, 
+  index: PropTypes.number.isRequired, 
 };
 
 export default Card;
