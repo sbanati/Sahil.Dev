@@ -1,5 +1,4 @@
 
-
 const Resume = () => {
   const resumeDownloadUrl = 'https://drive.google.com/uc?export=download&id=14HMUWlrQyCJsmDsxAmQ10e0GKB6SLzZ9';
 

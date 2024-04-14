@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import "../styles/Navbar.css";
+
 
 function Navbar() {
   const currentPage = useLocation().pathname;
