@@ -6,13 +6,13 @@ const Card = ({ title, description, imageUrl, githubUrl, deployedUrl, techStackU
   const cardClass = index % 2 === 0 ? 'flex-row-reverse' : 'flex-row';
 
   return (
-    <div className={` bg-white max-w-5xl shadow-lg mx-auto border rounded-md mb-20 p-8 flex ${cardClass}`}>
-      <div className="flex flex-col justify-center flex-1"> {/* Center the content vertically */}
+    <div className={`bg-white max-w-5xl shadow-lg mx-auto border rounded-md mb-20 p-8 flex ${cardClass} `}>
+      <div className="flex flex-col justify-center flex-1">
         <div className="relative mb-4">
-          <h2 className="text-xl font-bold text-center absolute w-full top-0 -mt-5">{title}</h2> {/* Position title at the top with increased top margin */}
+          <h2 className="text-xl font-bold text-center absolute w-full top-0 -mt-5">{title}</h2>
         </div>
-        <p className="text-black mb-4 mt-4 text-center">{description}</p> {/* Center the description */}
-        <div className="flex justify-center mb-4"> {/* Center the icons */}
+        <p className="text-black mb-4 mt-4 text-center">{description}</p>
+        <div className="flex justify-center mb-4">
           <a href={githubUrl} alt='github icon' target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 mr-4">
             <Github size={24} title= 'Clickable Github icon'/>
           </a>
@@ -20,11 +20,12 @@ const Card = ({ title, description, imageUrl, githubUrl, deployedUrl, techStackU
             <Share size={24} title= 'Clickable Live icon'/>
           </a>
         </div>
-        {/* Add tech stack image with margin to move it down */}
-        <img src={techStackUrl} alt="Tech Stack" className=" w-34 h-auto mx-auto mb-2 mt-10 z-10"  /> 
+        {/* Hide project image on medium screens and lower */}
+        <img src={techStackUrl} alt="Tech Stack" className=" w-52 h-auto mx-auto mb-2 mt-10 "  /> 
       </div>
-      <div className="w-72 h-auto ml-8 rounded-lg flex items-center justify-center"> 
-        <img src={imageUrl} alt={title} className="w-full h-full rounded-lg" /> 
+      {/* Display project image on screens larger than medium */}
+      <div className="hidden md:block w-72 h-auto ml-8 rounded-lg  items-center justify-center"> 
+        <img src={imageUrl} alt={title} className="w-4/5 h-full rounded-lg" /> 
       </div>
     </div>
   );
@@ -41,4 +42,3 @@ Card.propTypes = {
 };
 
 export default Card;
-
