@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a single-page react responsive application that is a portfolio. Additionally, this portfolio is hosted on Netlify.    
+This is a single-page react portfolio application. Additionally, this application was built with a mobile first approach and hosted on Netlify.    
 <br><br>
  
 
@@ -70,17 +70,11 @@ This is a single-page react responsive application that is a portfolio. Addition
 
 
 
-  ![My Skills](https://simpleskill.icons.workers.dev/svg?i=javascript,React,Vite,ReactRouter,tailwind) <br>
+![My Skills](https://simpleskill.icons.workers.dev/svg?i=javascript,React,Vite,ReactRouter,tailwind) <br>
+
+This applications contact form was built using<a href="https://www.npmjs.com/package/formik"><strong> Formik</strong></a>
 
   
-
-  
-
-
-
-
-  
-
 
 
 
@@ -131,10 +125,11 @@ Clone the repo below and open the project in your source code editor. Open the t
 
 
 
-### Successful PWA features for manifest.json and service worker configuration. 
 
-<img src="client/src/images/screenshot3.png" alt="browser developer tools for service worker">
-<img src="client/src/images/screenshot4.png" alt="browser developer tools for manifest">
+
+<img src="src/assets/screenshot3.png" alt="home page">
+<img src="src/assets/screenshot4.png" alt="home page on mobile">
+<img src="src/assets/screenshot5.png" alt="mobile nav">
 
 
 
@@ -151,8 +146,9 @@ Clone the repo below and open the project in your source code editor. Open the t
 
 <h3>Possible features</h3>
 
-* 
-* 
+* light/dark mode
+* testimonials
+* animations and transitions
  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
