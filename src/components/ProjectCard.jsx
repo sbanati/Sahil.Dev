@@ -21,11 +21,11 @@ const Card = ({ title, description, imageUrl, githubUrl, deployedUrl, techStackU
           </a>
         </div>
         {/* Hide project image on medium screens and lower */}
-        <img src={techStackUrl} alt="Tech Stack" className=" w-52 h-auto mx-auto mb-2 mt-10 "  /> 
+        <img src={techStackUrl} alt="Tech Stack" className=" w-52  mx-auto mb-2 mt-10 "  /> 
       </div>
       {/* Display project image on screens larger than medium */}
       <div className="hidden md:block w-72 h-auto ml-8 rounded-lg  items-center justify-center"> 
-        <img src={imageUrl} alt={title} className="w-4/5 h-full rounded-lg" /> 
+        <img src={imageUrl} alt={title} className="w-full h-full rounded-lg" /> 
       </div>
     </div>
   );

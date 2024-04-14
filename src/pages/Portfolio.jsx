@@ -56,7 +56,7 @@ const Portfolio = () => {
       description:'Developed a command-line interface(CLI) application, leveraging Node.js, Inquirer.js, and MySQL2, to facilitate dynamic CRUD operations on an SQL Human Resources employee database tracker.',
       githubUrl: 'https://github.com/sbanati/TeamFlow',
       deployedUrl: 'https://www.youtube.com/watch?v=Ft5N33LkwrQ&ab_channel=jsmbanati',
-      techStackUrl: 'https://simpleskill.icons.workers.dev/svg?i=node.js,mysql',
+      techStackUrl: 'https://simpleskill.icons.workers.dev/svg?i=node.js,express,mysql,sequelize,insomnia',
     },
    
     
