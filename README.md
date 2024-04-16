@@ -129,8 +129,11 @@ Clone the repo below and open the project in your source code editor. Open the t
 
 <img src="src/assets/screenshot3.png" alt="home page">
 <img src="src/assets/screenshot4.png" alt="home page on mobile">
-<img src="src/assets/screenshot5.png" alt="mobile nav">
+<img src="src/assets/screenshot5.png" alt="mobile nav"> <br>
 
+###This application was also run with wave and lighthouse extensions 
+<img src="src/assets/wave.png" alt="wave extension">
+<img src="src/assets/lighthouse.png" alt="lighthouse extension">
 
 
 
